@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kameron&display=swap" rel="stylesheet">
+    <link href="css/last-style.css" rel="stylesheet">
+    <script src="./script.js"></script> 
+</head>
+<body>
+
+        <div class=" nav-container ">
+            <a href="#" class="logo">
+               <h1 >Alaa <span>Ahmed</span></h1>
+            </a>
+            <nav class="nav">
+                <ul class="items">
+                    <li class="nav--l" ><a href="#content" > Home</a></li>
+                    <li ><a href="#about" >About Me</a></li>
+                    <li ><a href="#skills">Skills</a></li>
+                    <li ><a href="#Projects">Projects</a></li>
+                </ul> 
+                <ul class="btn-div">
+                    <li> <a href="#contact" class="btn">Contact</a> </li>
+                </ul> 
+            </nav>
+        </div>
+        
+     <div class="content row" id="content">
+            <div class=" content-texts col"> 
+                <h2> Hi, my name is </h2>
+                <h3>Alaa <span>Ahmed</span> </h3>
+                <h4>I’m UI/UX Designer & Front-end Developer  </h4>
+                <div class="social">
+                    <a href="https://www.behance.net/alaaahmed102" target="_blank" ><img src="images/behance.svg"class="normal" alt="my behance"></a>
+                    <a href="https://www.linkedin.com/in/alaa-ahmed-4a5498203/"target="_blank" ><img src="images/linkedin.svg"class="normal" alt="my linkedin"></a>
+                    <a href="https://github.com/AlaaAhmedAbdalhalim"target="_blank" ><img src="images/github.svg" class="normal" alt="my github"></a>
+                </div>
+            </div>
+            <div class="contanier_images">
+                <img src="images/Home img.svg" alt="Typing code" class="shape col">
+            </div>
+     </div>
+     <div class="about" id="about">
+            <div class="images">
+                <img src="images/About me img.svg " alt="" class="class">
+            </div>
+            <div class="text">
+                <h1>About <span> Me</span></h1>
+                <p>I’m a UI/UX Designer & Front-end Developer focused on making a perfect UI/UX based on user needs and app requirements, designs and builds Clean ,efficient code to build an elegant websites. </p>
+                <div class="about-btn-div">
+                  <a class="btnabout"  type="submit" onclick="window.open('Alaa Ahmed Abdel Halim.pdf')">Open CV</a>
+                </div>
+            </div>
+     </div>
+     <section class="skills" id="skills">
+        <div class="skills--title">
+            <img src="images/html skills.svg" alt="img" class="htmlskill">
+            <h1><span>My</span> Skills</h1>
+        </div>   
+        <div class="rew">
+             <div  class="card" >
+                <img src="images/XD.svg" alt="Adobe XD"class="Skills-images">
+                <h5 class="Skills-texts">Adobe XD</h5>
+             </div>
+             <div  class="card" >
+                <img src="images/Figma.svg" alt="Figma"class="Skills-images">
+                <h5 class="Skills-texts">Figma</h5>
+            </div>
+            <div  class="card">
+                <img src="images/HTML.svg"  alt="HTML"class="Skills-images">
+                <h5 class="Skills-texts">HTML</h5>
+            </div>
+            <div  class="card">
+                <img src="images/CSS.svg" alt="CSS"class="Skills-images">
+                <h5 class="Skills-texts">CSS</h5>
+            </div>
+            <div  class="card">
+                <img src="images/JS.svg"alt="Javascript"class="Skills-images">
+                <h5 class="Skills-texts">Javascript</h5>
+            </div>
+        </div>
+        <div class="skills--images">
+                <img src="images/my skills img.svg" alt="girl img" class="imageskills">
+                <img src="images/img skill 1.svg" alt="img" class="imageskill1">
+        </div>
+    </section> 
+    <section class="Projects" id="Projects">
+            <h1><span>MY </span> Projects</h1>
+            <h3>UI/UX Projects</h3>
+            <div class="Projects-row">
+            <div class="ProjectsImages">
+                <a href="https://www.behance.net/gallery/151863327/DailyUI"  target="_blank" >
+                <img src="images/Sign up 2 1.png" alt="Yoga app" class="yoga"><br>
+                <p>Yoga app</p></a>
+            </div>
+            <div class="ProjectsImages">
+                <a href="https://www.behance.net/gallery/153175485/Calculator-Design" target="_blank" >
+                <img src="images/Calculator 1.png" alt="Calculator" ><br>
+                <p>Calculator app</p></a>
+            </div>
+            <div class="ProjectsImages">
+                <a href="https://www.behance.net/gallery/151863967/DailyUI" target="_blank" >
+                <img src="images/Check out (1) 1.png" alt="Checkout" class="Checkout" ><br>
+                <p>Checkout Page </p></a>
+            </div>
+            <div class="ProjectsImages1">
+                <a href="https://www.behance.net/gallery/151975865/Loading-screen-for-Risky-Burger-app" target="_blank" >
+                <img src="images/Loading 1.png" alt="burger app"  class="loading" ><br>
+                <p>Burger app (loading page)</p></a>
+            </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div>
+                <h1>Contact <span>Me</span></h1>
+                <p>Feel free to contact me anytime</p>
+            </div>
+                <form action="https://formspree.io/f/xvojvlgy" method="POST" >
+                    <div class="form-row" >
+                        <div class="name-push">
+                            <label for="Name" class="label1"> Name</label>
+                            <input type="text" name="Name" id="Name" required placeholder="Full Name">
+                        </div>
+                        <div class="email-push">
+                            <label for="email" class="label2"> E-mail</label>
+                            <input type="email" name="email" required placeholder="  Your E-mail" id="email">
+                        </div>
+                    </div>
+                    <div class="message--push">
+                        <label for="message" class="label3"> Message </label>
+                        <textarea placeholder="Type here.." required  name="message" rows="10" cols="100" id="message"></textarea>
+                    </div>
+                    <br> 
+                 <input type="submit" value="Send Message" name="button" required id="SendMessage" onclick="myfunction()">
+                 <p id="demo"></p>
+                </form>
+        </section>
+</body>     

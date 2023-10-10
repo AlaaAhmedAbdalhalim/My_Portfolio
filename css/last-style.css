@@ -1,0 +1,631 @@
+*,*::before,::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Kameron', serif;
+    background-color: #121212;
+    color: #D3D0D0;
+    font-size: 120px;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #D3D0D0;
+}
+img{
+    max-width: 100%;
+}
+
+/*NAAAAAAAAAAAAAAAAAAV*/
+
+.nav-container{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    display: flex;
+   font-size: 0.5rem;
+   justify-content: space-between;
+   padding: 0.2em 0.8em;
+   background-color:#1b1a1a;
+}
+
+.nav{
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-grow: 1;
+   
+}
+.items{
+    margin: 0 auto;
+}
+.logo{
+   
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.logo span{
+    color:#37745B;
+}
+
+nav ul li,.btn-div{
+  list-style-type: none;
+  display: inline;
+  padding: 0 0.5em;
+}
+
+nav ul li a{
+    transition: 0.4s;
+    font-size: 1.4rem;
+    padding: 0 0.5em;
+}
+
+nav ul li a:hover{
+    color: #37745B;
+}
+.btn--push{
+    margin-left: auto;
+}
+.btn{
+    
+    background-color: #37745B;
+    font-weight: bold;
+    padding: 0.5rem 0.7rem;
+    text-align: center;
+    border:0.3rem solid transparent;
+    border-radius: 1rem;
+}
+.btn:hover{
+    background-color: transparent;
+    border:0.3rem solid #37745B;
+
+}
+/*End OF NAAAAV*/
+/* CONTAAANT*/
+
+.content{
+    display: flex;
+    margin: 0rem auto;
+    align-items: center;
+    font-size: 2rem;
+   line-height: 0.8;
+   padding: 8rem 1rem;
+}
+.content-texts{
+    margin-left: 5rem;
+}
+.content-texts h2,h4{
+font-size: 2rem;
+font-weight: normal;
+
+}
+.content-texts h3{
+    font-weight: bold;
+}
+.content-texts h3 span {
+    color:#37745B;
+    font-weight: bold;
+}
+.social img:hover{
+    transform: scale(1.2);
+    box-shadow:inset 0 0 0.16rem #28624A;
+
+}
+.normal {
+    background-color:#37745B;
+    border-radius: 0.4rem;
+    margin: 0.4rem;
+    box-shadow: 0rem 0.2rem 0.3rem #103929;
+    padding: 0.4rem;
+}
+.contanier_images{
+   
+    margin-left: auto;
+}
+    /*gamdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+  /*/  margin-left: auto;
+    
+}
+/*END OF CONTAAAAAAAAACCT*/
+/*Abooooooout*/
+
+.about{
+    display: flex;
+    font-size: 2rem;  
+    padding: 1rem 0.5rem ;
+    background-color: #2E2E2E;
+    justify-content: space-between;
+}
+
+.images{
+     width: 100%;
+     max-width: 100%;
+    padding-right: auto;
+    align-self: center;
+    
+}
+.text h1{
+    text-align:center; 
+    font-weight: bold;
+}
+.text h1 span{
+    color:#37745B;
+    font-weight: bold;
+}
+.text p{
+   font-size: 1.7rem;
+   padding-top: 0.5rem;
+   font-weight: normal;
+  
+}
+.about-btn-div
+{
+    display: flex;
+    justify-content: center;
+}
+.btnabout{
+    font-size: 1.8rem;
+    width: 15rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #37745B;
+    padding: 0.5rem 0.2rem ;
+    border-radius: 0.8rem;
+    border:0.3rem solid transparent;
+    transition: 6s;
+}
+.btnabout:hover{
+    background-color: transparent;
+    border:0.3rem solid #37745B;
+    font-weight: normal;
+    color:  #37745B;
+}
+/*END OF Abooooooooooooooooooooooooooooout*/
+/*Skillllllllllllllllllllllllllllllllllls*/
+.skills{
+    font-size: 2rem;
+    width: 100%;
+   }
+   .skills--title{
+    display: flex;
+   }
+   .htmlskill{
+    max-width: 100%;
+   }
+   .skills h1{
+    margin: 2rem auto;
+   } 
+   .skills h1 span{
+    color:#37745B;
+   }
+   .rew{
+    display: flex;
+    justify-content: center;
+    margin:2rem 3rem;
+    align-items: center;
+   }
+   .card{
+    width: 100%;
+    background-color: #302d2d;
+    border-radius: 2rem;
+    text-align: center;
+    border: none;
+    padding: 0.5rem 1.9rem;
+    margin: 1.2rem;
+   }
+  .card img{
+    max-width: 100%;
+    padding-top: 1rem;
+  }
+    .card h5{
+    margin: 1rem;
+   }
+   .skills--images{
+    display: flex;
+   } 
+   .imageskill1{
+    margin-left: auto;
+   }
+   /*       END OF SKILLLLLLLLLLLLLLLLLLLS*/
+   /*Prrrrrrrrrrrrrrrrrrrrrojects*/
+.Projects{
+font-size: 2rem;
+text-decoration: none;
+background-color: #2E2E2E;
+padding-top: 0.2rem;
+}
+.Projects h1{
+    font-weight: bold;
+    text-align: center;
+}
+.Projects span{
+    color:#37745B;
+}
+.Projects h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.Projects-row{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 1rem;
+}
+
+.ProjectsImages ,.ProjectsImages1{
+    font-size: 1.8rem;
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+}
+.ProjectsImages img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.ProjectsImages img:hover{
+    transform: scale(1.2);
+    box-shadow:inset 0 0 0.16rem #28624A;
+
+}
+.ProjectsImages1 img:hover{
+    transform: scale(1.2);
+    box-shadow:inset 0 0 0.16rem #28624A;
+
+}
+.ProjectsImages1 img{
+    width: 85%;
+    border-radius: 0.5rem;
+}
+.ProjectsImages a{
+    text-decoration: none;
+}
+
+.contact {
+    font-size: 2rem;
+    padding-top: 0.2rem;
+    text-align: center;
+}
+.contact h1{
+    margin-bottom: 0.5rem;
+}
+.contact h1 span{
+    color:#37745B;
+}
+
+.contact p{
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+.form-row{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.email-push{
+ font-size: 1.2rem;
+   display: flex;
+    align-items:flex-start;
+   flex-direction: column;
+
+}
+.email-push input{
+    width: 20rem;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+.name-push{
+   font-size: 1.2rem;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.name-push input{
+    width: 20rem;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+.message--push
+{
+     font-size: 1.2rem;
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+.message--push label{
+    padding-right: 40rem;
+}
+.message--push textarea{
+    width: 45rem;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#SendMessage{
+   font-size: 1.8rem;
+   background-color: #37745B;
+   margin-bottom: 2rem;
+   padding: 0.5rem 1.2rem;
+   text-align: center;
+   width: 15rem;
+   border-radius: 1rem;
+   border: none;
+   transition: 4s;
+   border: 0.2rem solid transparent ;
+   color: #D3D0D0;
+}
+
+#SendMessage:hover{
+    border: 0.2rem solid  #37745B; ;
+    background-color: transparent;
+    color:  #37745B;
+}
+
+
+@media  (max-width:830px) and (min-width:726px) {
+.nav-container{
+    
+    padding: 1.5em 0.8em;
+}
+.logo{
+    display: none;
+}
+
+.items{
+    padding: 0 ;
+    margin-left: 0 ;
+}
+.content{
+line-height: 0.8;
+
+}
+.content-texts h2,h3,h4{
+    font-size: 1.6rem;
+}
+.normal {
+    padding:  0.4rem 0.4rem;
+    margin: 0.1rem;
+}
+.about{
+    width: 100%;
+}
+.text h1{
+    font-size: 2rem;
+}
+.text p{
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+.images{
+   display: none;
+}
+.btnabout{
+    font-size: 1.2rem;
+    width: 10rem;
+}
+.rew{
+    flex-wrap: wrap;
+    margin-bottom: 0.2rem;
+}
+.card{
+    width: 30%;
+    align-self: center;
+}
+.ProjectsImages {
+    font-size: 1rem;
+}
+.ProjectsImages1 img {
+    width:100%;
+    padding-right: 0.5rem;
+}
+.ProjectsImages1{
+    font-size: 1rem;
+}
+
+}
+
+@media  (max-width:725px) and (min-width:320px) {
+.nav-container{
+    padding: 1.2em 0.8em;
+}
+.logo{
+        display: none;
+    }
+   
+.items{
+        padding: 0 ;
+        margin-left: 0 ;
+    }
+/* .items{
+
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 0rem;
+} */
+nav ul li a{
+    font-size: 0.7rem;
+}
+
+.btn{
+    padding: 0.5rem 0.7rem;
+    border: 0;
+    background-color: transparent;
+    color:  #D3D0D0;
+    align-items: center;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #37745B;
+
+}
+.content{
+    display: block;
+    font-size: 0.2rem;
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+
+}
+.content-texts h2,h3,h4{
+        font-size: 1.2rem;
+        padding: 0 0.1rem;
+        line-height: 0.8;
+    }
+.content-texts h4{
+      
+        line-height: 1;
+    }
+ .content-texts {
+    margin-left: 1rem;
+}
+.contanier_images{
+    width: 70%;
+}
+.normal {
+    padding:  0.1rem 0.2rem;
+    margin: 0.2rem;
+    width: 2.2rem;
+}
+
+.text{
+    font-size: 1rem;
+}
+.text p{
+    font-size: 1.2rem;
+    padding: 0.2rem 0.2rem;
+}
+.images{
+    display: none;
+ }
+ .btnabout{
+     font-size: 1.2rem;
+     width: 10rem;
+ }
+ .htmlskill{
+    width: 10%;
+ }
+ .skills--title h1{
+    font-size: 2rem;
+ }
+ .rew{
+    font-size: 1rem;
+    font-weight: normal;
+    flex-wrap: wrap;
+    margin: 0.5rem  0.5rem;
+    text-align: center;
+}
+.card{
+    width: 39%;
+    align-self: center;
+}
+.imageskills{
+    width: 50%;
+}
+.imageskill1{
+    width: 15%;
+}   
+.Projects h1{
+    margin-bottom: 0.2rem;
+    font-size: 2rem;
+}
+.Projects h3{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+.Projects-row{
+    flex-wrap: wrap;
+}
+.ProjectsImages{
+    width: 30%;
+    font-size: 1rem;
+}
+.ProjectsImages1{
+    width: 40%;
+    font-size: 1rem;
+}
+.contact {
+    font-size: 1rem;
+}
+.contact p {
+    font-size: 0.8rem;
+}
+.form-row{
+
+    display: block;
+    
+}
+
+.email-push label ,.name-push label{
+ font-size: 1rem;
+ 
+ margin-left: 3.5rem;
+}
+
+.email-push input ,.name-push input
+{
+    margin: 0 auto;
+}
+.message--push
+{
+     font-size: 1rem;
+}
+
+.message--push label{
+    padding-right: 16rem;
+}
+.message--push textarea{
+    width: 20rem;
+    margin: 0 auto;
+}
+
+#SendMessage{
+   font-size: 1.4rem;
+   padding: 0.5rem 0.2rem;
+   width: 12rem;
+   border-radius: 0.5rem;
+}
+}
+@media  (max-width:376px) and (min-width:321px) {
+.email-push label ,.name-push label{
+    margin-left: 2rem;
+    }
+}
+@media  (max-width:320px)  {
+    .email-push label ,.name-push label{
+        margin-left: 1rem;
+        }
+        .email-push input ,.name-push input
+        {
+            width: 18rem;
+        }
+.message--push
+{
+     font-size: 1rem;
+}
+
+.message--push label{
+    padding-right: 14rem;
+}
+.message--push textarea{
+    width: 18rem;
+   
+}
+#SendMessage{
+   font-size: 1rem;
+   padding: 0.5rem 0.2rem;
+   width: 10rem;
+   border-radius: 0.5rem;
+}   
+    }
