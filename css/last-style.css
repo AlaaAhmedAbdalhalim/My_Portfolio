@@ -283,16 +283,14 @@ padding-top: 0.2rem;
 .ProjectsImages a{
     text-decoration: none;
 }
-
-//End of projects sections 
-//contact section
 .contact {
     font-size: 2rem;
     padding-top: 0.2rem;
-    text-align: center;
+    text-align:center;
 }
 .contact h1{
     margin-bottom: 0.5rem;
+    font-size:2rem;
 }
 .contact h1 span{
     color:#37745B;
