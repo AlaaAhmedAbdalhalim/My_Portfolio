@@ -181,6 +181,7 @@ font-weight: normal;
     border:0.3rem solid #37745B;
     font-weight: normal;
     color:  #37745B;
+    cursor: pointer;
 }
 /*END OF Abooooooooooooooooooooooooooooout*/
 /*Skillllllllllllllllllllllllllllllllllls*/
@@ -205,9 +206,11 @@ font-weight: normal;
     justify-content: center;
     margin:2rem 3rem;
     align-items: center;
+    flex-wrap:wrap;
+
    }
    .card{
-    width: 100%;
+  
     background-color: #302d2d;
     border-radius: 2rem;
     text-align: center;
@@ -227,6 +230,10 @@ font-weight: normal;
    } 
    .imageskill1{
     margin-left: auto;
+   }
+   .card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
    }
    /*       END OF SKILLLLLLLLLLLLLLLLLLLS*/
    /*Prrrrrrrrrrrrrrrrrrrrrojects*/
@@ -256,7 +263,7 @@ padding-top: 0.2rem;
     padding-left: 1rem;
 }
 
-.ProjectsImages ,.ProjectsImages1{
+.ProjectsImages {
     font-size: 1.8rem;
     text-align: center;
     border: none;
@@ -276,10 +283,7 @@ padding-top: 0.2rem;
     box-shadow:inset 0 0 0.16rem #28624A;
 
 }
-.ProjectsImages1 img{
-    width: 85%;
-    border-radius: 0.5rem;
-}
+
 .ProjectsImages a{
     text-decoration: none;
 }
@@ -368,6 +372,7 @@ padding-top: 0.2rem;
     border: 0.2rem solid  #37745B; ;
     background-color: transparent;
     color:  #37745B;
+    cursor: pointer;
 }
 
 
